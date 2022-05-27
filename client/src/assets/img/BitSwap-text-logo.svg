@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 250" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="263.922" y1="77.186" x2="263.922" y2="379.324" id="gradient-0" gradientTransform="matrix(0.480212, 0, 0, 0.576315, 302.713545, -14.206897)">
+      <stop offset="0" style="stop-color: rgba(216, 216, 216, 1)"/>
+      <stop offset="1" style="stop-color: rgba(165, 165, 165, 1)"/>
+    </linearGradient>
+    <style bx:fonts="Aladin">@import url(https://fonts.googleapis.com/css2?family=Aladin%3Aital%2Cwght%400%2C400&amp;display=swap);</style>
+    <filter id="duotone-filter-0" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="duotone 1 rgb(189,11,145) rgb(252,187,13) 1">
+      <feColorMatrix type="matrix" result="grayscale" values="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0"/>
+      <feComponentTransfer color-interpolation-filters="sRGB">
+        <feFuncR type="gamma" exponent="1.5" amplitude="1" offset="0"/>
+        <feFuncG type="gamma" exponent="1.5" amplitude="1" offset="0"/>
+        <feFuncB type="gamma" exponent="1.5" amplitude="1" offset="0"/>
+      </feComponentTransfer>
+      <feComponentTransfer color-interpolation-filters="sRGB" result="duotone">
+        <feFuncR type="table" tableValues="0.741 0.988"/>
+        <feFuncG type="table" tableValues="0.043 0.733"/>
+        <feFuncB type="table" tableValues="0.569 0.051"/>
+        <feFuncA type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <path style="fill: url(#gradient-0); fill-rule: nonzero; stroke: rgba(0, 0, 0, 0.07); filter: url(#duotone-filter-0);" d="M 373.273 43.218 C 365.464 36.004 379.252 40.58 384.295 42.65 C 386.289 43.467 385.704 39.869 393.41 39.425 C 393.066 39.425 395.7 33.683 397.169 32.266 C 401.599 27.989 401.07 31.349 401.01 35.375 C 400.984 37.24 400.182 43.387 404.388 45.428 C 405.125 45.787 411.292 50.923 414.13 57.467 C 416.794 63.61 418.45 60.105 421.916 61.891 C 424.891 63.422 432.383 74.964 437.637 89.187 C 445.401 110.198 452.348 153.701 443.934 166.262 C 443.08 167.539 442.8 168.165 441.26 168.796 C 437.586 170.295 440.261 178.008 452.097 190.584 C 457.899 196.746 466.574 197.591 475.599 186.024 C 477.319 183.821 474.033 178.473 468.281 177.071 C 465.805 176.471 468.151 175.569 474.756 172.68 C 477.68 171.4 474.725 168.643 466.451 166.095 C 463.863 165.296 466.164 163.664 473.348 161.195 C 476.759 160.022 476.432 153.605 469.548 147.346 C 468.158 146.08 465.109 139.83 468.562 137.718 C 470.808 136.345 475.638 143.665 477.992 147.515 C 480.275 151.25 482.387 155.756 483.481 160.352 C 484.161 163.207 481.957 164.728 476.866 164.575 C 473.15 164.46 476.105 167.332 486.294 171.835 C 489.169 173.107 488.984 172.938 480.667 175.044 C 477.319 175.893 475.676 175.555 483.622 180.789 C 488.837 184.225 479.972 208.039 455.894 203.928 C 447.098 202.425 430.27 185.49 418.87 178.549 C 415.222 176.324 410.361 176.278 408.799 176.593 C 396.984 178.976 374.57 166.93 375.425 123.796 C 375.505 119.734 378.663 113.192 383.375 112.423 C 385.055 112.149 387.432 111.629 389.863 116.935 C 390.962 119.334 393.312 121.958 395.521 119.243 C 397.727 116.529 400.052 116.288 399.66 87.128 C 399.611 83.5 398.5 79.848 398.176 78.096 C 397.712 75.605 396.808 72.981 392.468 76.708 C 389.352 79.382 387.084 78.964 384.843 76.877 C 383.547 75.672 383.313 75.594 382.286 75.617 C 381.138 75.642 380.711 75.124 380.434 73.439 C 380.345 72.975 380.332 74.523 378.474 71.265 C 377.999 70.43 377.669 70.429 378.588 68.565 C 379.751 66.207 379.737 65.298 378.165 62.172 C 377.457 60.764 376.483 60.697 378.014 58.352 C 378.78 57.177 378.842 54.797 378.931 51.139 C 379.001 48.276 375.921 45.307 373.273 43.218 Z"/>
+  <text style="fill: rgb(51, 51, 51); font-family: Aladin; font-size: 172.678px; white-space: pre;" transform="matrix(0.702224, 0, 0, 0.748827, 18.963564, 153.280655)">BitSwap</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" transform="matrix(0.515406, 0, 0, 0.51541, 447.422943, 146.855515)"> </text>
+</svg>
