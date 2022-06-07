@@ -3,9 +3,13 @@ import './App.scss';
 import 'react-toastify/dist/ReactToastify.css';
 import { Navbar, Amoeba, Transactions, Slogen, Footer, AmazingCard } from './components';
 import { ToastContainer } from 'react-toastify';
+import { useContext } from 'react';
+import { TransactionContext } from './context/TransactionContext';
 
 
 function App() {
+
+  const { connectWallet, currentAccount } = useContext(TransactionContext);
 
   return (
     <div className="App min-h-screen relative bg-violet-100 overflow-hidden">
@@ -17,7 +21,14 @@ function App() {
         <div className="2xl:mt-36 mt-24 px-[2%] flex justify-evenly flex-wrap xl:flex-nowrap">
           <div className="text-center xl:text-left xl:pr-6">
             <Slogen />
-            <button className="bg-sky-600 text-white rounded-full text-2xl mt-16 px-6 py-2 hover:bg-sky-700 relative transition-colors" onClick={() => alert('123')}>Connect Wallet</button>
+            {
+              !currentAccount && (
+                <button
+                  className="bg-sky-600 text-white rounded-full text-2xl mt-16 px-6 py-2 hover:bg-sky-700 relative transition-colors"
+                  onClick={connectWallet}>Connect Wallet
+                </button>
+              )
+            }
           </div>
           <div className="flex flex-col items-center w-full xl:w-auto xl:-mt-5 mt-40 ">
             <AmazingCard />

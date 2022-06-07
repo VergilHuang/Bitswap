@@ -17,11 +17,12 @@ module.exports = {
         '@typescript-eslint'
     ],
     rules: {
-      semi: ['error', 'always'],
-      quotes: ['error', 'single'],
+      'semi': ['error', 'always'],
+      'quotes': ['error', 'single'],
       'jsx-quotes': ['error', 'prefer-double'],
-      camelcase: 'error',
+      'camelcase': 'error',
       'default-case': 'error',
-      eqeqeq: 'error'
+      'eqeqeq': 'error',
+      'max-len': ['error', { 'code': 180, 'tabWidth': 4 }]
     }
 };
