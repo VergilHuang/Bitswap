@@ -17,7 +17,7 @@ function App() {
       <Amoeba type="amoeba-1" className="absolute top-[-5%] left-[-15%] pt-[60%] w-[66%] xl:pt-[50%] xl:w-[55%]" />
       <Amoeba type="amoeba-2" className="absolute top-[35%] right-[-10%] pt-[50%] w-[59%]" />
       <Navbar />
-      <div className="pt-[134px]">
+      <div className="py-[80px] lg:py-[134px]">
         <div className="2xl:mt-36 mt-24 px-[2%] flex justify-evenly flex-wrap xl:flex-nowrap">
           <div className="text-center xl:text-left xl:pr-6">
             <Slogen />
@@ -30,7 +30,7 @@ function App() {
               )
             }
           </div>
-          <div className="flex flex-col items-center w-full xl:w-auto xl:-mt-5 mt-40 ">
+          <div className="flex flex-col items-center w-full xl:w-auto mt-32 xl:-mt-10  ">
             <AmazingCard />
             <Transactions />
           </div>
